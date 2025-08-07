@@ -1,6 +1,4 @@
 # DdONN-PINNs
 DdONN-PINNs: Complex Optical Wavefield Reconstruction by Domain Decomposition of Optical Neural Networks and Physics-informed Information
 
-\begin{abstract}
 This paper proposes DdONN-PINNs, which integrate optical neural networks with domain decomposition and incorporate physics-informed information for complex optical wavefield reconstruction. The framework combines optical neural networks and physics-informed neural networks to achieve high-precision, physically consistent, and robust modeling. It employs a ``SIREN shared encoding -- domain-specific output'' architecture, Fourier diffraction layers, and native complex-domain modeling to handle spatial heterogeneity and preserve wavefield coupling relationships. Using the nonlinear Schrödinger equation rogue wave field, DdONN-PINNs achieve an amplitude MSE of $4.91 \times 10^{-4}$ and a phase error of $1.85 \times 10^{-4}$, outperforming non-domain-decomposed models and ReLU variants. Robustness analysis shows stable performance with noise levels up to $\sigma = 0.1$. DdONN-PINNs offer a balanced solution for wavefield reconstruction, combining precision, physical interpretability, and robustness, with potential applications in fiber-optic communication and ocean optics.
-\end{abstract}
